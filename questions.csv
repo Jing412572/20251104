@@ -1,0 +1,15 @@
+在 p5.js 中，哪一個函式只會在程式開始時執行一次？,setup(),draw(),preload(),mouseClicked(),0
+HTML 的全名是什麼？,Hyper Text Markup Language,High Tech Modern Language,Hyperlink and Text Language,Home Tool Markup Language,0
+CSS 代表什麼？,Cascading Style Sheets,Creative Style Sheets,Computer Style Sheets,Colorful Style Sheets,0
+在 p5.js 中，用來設定畫布背景顏色的函式是？,background(),fill(),stroke(),rect(),0
+哪一個 HTML 標籤是用來建立超連結？,<a>,<h1>,<p>,<img>,0
+在 CSS 中，如何選擇一個 id 為 "header" 的元素？,#header,.header,header,header(),0
+JavaScript 的哪一個關鍵字是用來宣告一個值不會改變的常數？,const,let,var,static,0
+在 p5.js 中，`width` 和 `height` 這兩個變數代表什麼？,畫布的寬度和高度,視窗的寬度和高度,螢幕的寬度和高度,圖片的寬度和高度,0
+哪一個函式可以將 p5.js 的畫布設定為全螢幕？,windowWidth, windowHeight,fullScreen(),displayWidth, displayHeight,goFullScreen(),0
+在 p5.js 中，`mouseX` 和 `mouseY` 變數儲存了什麼資訊？,滑鼠在畫布上的 X 和 Y 座標,滑鼠在螢幕上的 X 和 Y 座標,鍵盤的按鍵代碼,畫布的中心點座標,0
+HTML 中，哪一個標籤是用來定義一個段落？,<p>,<paragraph>,<para>,<text>,0
+CSS 屬性 `color` 是用來設定什麼的？,文字顏色,背景顏色,邊框顏色,陰影顏色,0
+在 p5.js 中，`rectMode(CENTER)` 的作用是什麼？,前兩個參數代表矩形的左上角,前兩個參數代表矩形的中心點,最後兩個參數代表矩形的中心點,沒有任何作用,1
+哪一個 JavaScript 函式可以在新的瀏覽器分頁中開啟網頁？,window.new(),window.open(),document.open(),page.open(),1
+在 CSS 中，哪一個屬性是用來控制元素的堆疊順序（誰在最上層）？,layer,order,z-index,stack-order,2

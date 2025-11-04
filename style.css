@@ -1,0 +1,101 @@
+body {
+    font-family: "Helvetica Neue", "Microsoft JhengHei", sans-serif;
+    margin: 0;
+    transition: background-color .5s;
+}
+
+/* 側邊選單樣式 */
+.sidenav {
+    height: 100%;
+    width: 250px; /* 預設寬度，在寬螢幕上顯示 */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; /* 禁用水平滾動 */
+    transition: 0.5s; /* 動畫效果 */
+    padding-top: 60px;
+}
+
+/* 選單項目連結 */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* 下拉式選單按鈕 */
+.dropdown-btn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* 按鈕和連結的懸停效果 */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+/* 下拉式選單容器 */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* 可選：為下拉式選單中的連結添加樣式 */
+.dropdown-container a {
+    padding-left: 40px;
+}
+/* 滑鼠懸停時的連結樣式 */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* 關閉按鈕 */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* 主要內容區域，當選單開啟時向右推 */
+#main {
+    transition: margin-left .5s; /* 動畫效果 */
+    margin-left: 250px; /* 為展開的選單騰出空間 */
+    padding: 16px;
+}
+
+.open-btn {
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* 在寬螢幕上預設隱藏 */
+}
+
+/* 當螢幕寬度小於 768px (行動裝置) */
+@media screen and (max-width: 768px) {
+    .sidenav {width: 0;} /* 隱藏選單 */
+    #main {margin-left: 0;} /* 主要內容回到原位 */
+    .open-btn {display: block;} /* 顯示漢堡圖示 */
+}
+
+#canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* 將畫布放在最底層 */
+}

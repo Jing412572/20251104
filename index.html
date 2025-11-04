@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隱藏式選單</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="c:\Users\User\Downloads\20251104\sketch.js"></script>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">第一單元作品</a>
+        <a href="#">第一單元筆記</a>
+        <a href="quiz.html">測驗系統</a>
+        <a href="#">測驗卷筆記</a>
+        <a href="#">作品筆記</a>
+        <button class="dropdown-btn">淡江大學
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#">教育科技學系</a>
+        </div>
+        <a href="#">回到首頁</a>
+    </div>
+
+    <div id="main">
+        <span class="open-btn" onclick="openNav()">&#9776;</span>
+        <div id="canvas-container">
+            <!-- p5.js canvas 將會被建立在這裡 -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
